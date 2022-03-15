@@ -1,5 +1,5 @@
 // Routes
-const wilderController = require("../controllers/WilderController");
+const wilderController = require("../src/controllers/WilderController");
 const expressRouter = require("express");
 const router = expressRouter.Router();
 
