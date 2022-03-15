@@ -1,0 +1,36 @@
+### CREATE WILDERS
+POST http://localhost:5000/api/wilders HTTP/1.1
+content-type: application/json
+
+{
+    "name":"xcx",
+    "city": "Londres"
+}
+### READ WILDERS
+GET http://localhost:5000/api/wilders HTTP/1.1
+content-type: application/json
+
+### DELETE WILDERS 
+DELETE http://localhost:5000/api/wilder/6228b1e3811431c26904eb60/ HTTP/1.1
+content-type: application/json
+
+### UPDATE WILDERS 
+POST http://localhost:5000/api/wilder/6228b2b159d39d81b1e369e7/ HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Http Wisdqeldsqdjjiikqsdeeer",
+    "city": "Pardsqdedis",
+     "skills": [
+    {
+      "title": "HTML",
+      "votes": 10,
+      "_id": "622715d29cbf5cddeca11250"
+    },
+    {
+      "title": "Reeaeect",
+      "votes": 5,
+      "_id": "622715d29cbf5cddeca11251"
+    }
+  ]
+}
